@@ -1,0 +1,16 @@
+{
+	"name": "pi-reply-clock",
+	"version": "1.0.0",
+	"description": "Reply Clock for pi — footer shot clock showing reply status, time since last turn, session tokens, cache hit rate, cost, and context.",
+	"keywords": ["pi-package", "pi", "footer", "statusline"],
+	"license": "MIT",
+	"author": "Jesse Robbins <https://jesserobbins.com>",
+	"repository": "github:jesserobbins/pi-reply-clock",
+	"type": "module",
+	"peerDependencies": {
+		"@earendil-works/pi-coding-agent": "*",
+		"@earendil-works/pi-tui": "*"
+	},
+	"private": false,
+	"files": ["extensions/", "README.md", "CHANGELOG.md", "LICENSE"]
+}
