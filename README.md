@@ -26,6 +26,10 @@ pi install npm:pi-reply-clock
 pi install git:github.com/jesserobbins/pi-reply-clock
 ```
 
+If you previously ran this as a standalone extension file (e.g. copied into
+`~/.pi/agent/extensions/`), delete that copy before installing — loading the
+same extension twice hangs pi at startup.
+
 ## Notes
 
 The footer is replaced wholesale, which means reproducing the built-in layout.
